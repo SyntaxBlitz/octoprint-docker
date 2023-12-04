@@ -55,7 +55,7 @@ If you map a video device _other_ than `/dev/video0`, you will additionally need
 Make sure you use the following internal configuration (Settings » Webcam & Timelapse):
 
 - Stream URL: `/webcam/?action=stream`
-- Snapshot URL: `http://localhost:8080/?action=snapshot`
+- Snapshot URL: `http://localhost:8080/webcam/?action=snapshot`
 - Path to FFMPEG: `/usr/bin/ffmpeg`
 
 URLs for reaching the camera from outside the container are:
